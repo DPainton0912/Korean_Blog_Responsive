@@ -1,0 +1,189 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+html{
+  background-color: #383838;
+}
+
+header h1{
+  padding: 40px;
+  font-size: 2rem;
+  margin: 0px;
+  color: aliceblue;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+nav{
+  width: 100%;
+  height: 75px;
+  background-color: #2b2b2b;
+}
+
+nav a{
+  padding: 22px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 75px;
+  width: 100%;
+}
+
+nav a:hover{
+  background-color: aliceblue;
+  color: darkturquoise;
+}
+
+nav a:link{
+  text-decoration: none;
+  color: turquoise;
+}
+
+nav a:visited{
+  color: darkorchid;
+}
+
+.blogpost{
+  margin: 25px;
+  padding: 25px;
+  color: aliceblue;
+  font-family: 'Roboto Slab', serif;
+}
+
+.recipe{
+  display: none;
+}
+
+figure{
+  margin: 50px;
+}
+
+.flag{
+  float: right;
+  width: 17.5%;
+  padding: 15px;
+}
+
+figcaption{
+  color: turquoise;
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: none;
+}
+
+.flagcaption{
+  float: right;
+}
+
+.food{
+  width: 26.5%;
+  padding: 15px;
+}
+
+.button{
+  border: none;
+  background-color: aliceblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: darkturquoise;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+table{
+  width: 100%;
+  background-color: aliceblue;
+  color: #2b2b2b;
+  border: 2px solid darkorchid;
+  border-radius: 25px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+td{
+  border: 2px solid darkorchid;
+  margin: 12.5px;
+  padding: 12.5px;
+  text-align: center;
+}
+
+.rating{
+  width: 17.5%;
+  padding: 15px;
+}
+
+.posters{
+  width: 100%;
+  margin: 25px;
+  padding: 25px;
+  color: aliceblue;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+.image{
+  width: 39.5%;
+}
+
+#wikipedialink{
+  text-decoration: none;
+  color: turquoise;
+}
+
+#wikipedialink:visited{
+  color: darkorchid;
+}
+
+@media screen and (max-width: 1228px){
+  nav{
+    height: 150px;
+  }
+  
+  .flag{
+    width: 27.5%;
+  }
+
+  .food{
+    width: 52.5%;
+  }
+}
+
+@media screen and (max-width: 630px){
+  nav{
+    height: 225px;
+  }
+  
+  .flag{
+    width: 47.5%;
+  }
+
+  .food{
+    width: 72.5%;
+  }
+
+  .image{
+    width: 52.5%;
+  }
+}
+
+@media screen and (max-width: 444px){
+  nav{
+    height: 305px;
+  }
+  
+  .flag{
+    width: 100%;
+  }
+  
+  .food{
+    width: 100%;
+  }
+
+  .image{
+    width: 100%;
+  }
+}
