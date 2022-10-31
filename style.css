@@ -113,7 +113,6 @@ td{
 }
 
 .rating{
-  width: 17.5%;
   padding: 15px;
 }
 
@@ -142,12 +141,16 @@ td{
     width: 27.5%;
   }
 
-  .image{
-  width: 39.5%;
-  }
-
   .food{
     width: 52.5%;
+  }
+
+  .rating{
+    width: 12.5%;
+  }
+
+  .image{
+  width: 39.5%;
   }
 }
 
@@ -162,6 +165,10 @@ td{
 
   .food{
     width: 72.5%;
+  }
+
+  .rating{
+    width: 39.5%;
   }
 
   .image{
@@ -180,6 +187,10 @@ td{
   
   .food{
     width: 100%;
+  }
+
+  .rating{
+    width: 62.5%;
   }
 
   .image{
