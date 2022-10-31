@@ -119,15 +119,9 @@ td{
 
 .posters{
   width: 100%;
-  margin: 25px;
-  padding: 25px;
   color: aliceblue;
   font-family: 'Roboto Slab', serif;
   text-align: center;
-}
-
-.image{
-  width: 39.5%;
 }
 
 #wikipedialink{
@@ -146,6 +140,10 @@ td{
   
   .flag{
     width: 27.5%;
+  }
+
+  .image{
+  width: 39.5%;
   }
 
   .food{
@@ -167,7 +165,7 @@ td{
   }
 
   .image{
-    width: 52.5%;
+    width: 62.5%;
   }
 }
 
@@ -185,6 +183,6 @@ td{
   }
 
   .image{
-    width: 100%;
+    width: 87.5%;
   }
 }
